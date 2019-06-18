@@ -1,0 +1,19 @@
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.item  .edit {
+    display: none;
+    color: red;
+    font-size: x-small;
+}
+
+.item:hover  .edit {
+    display: inline;
+}
